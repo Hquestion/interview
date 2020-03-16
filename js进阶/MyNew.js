@@ -18,4 +18,6 @@ const zhangsan = myNew(Man, {
     age: 20
 });
 
+console.log(zhangsan instanceof Man);
+
 zhangsan.walk(10);
